@@ -60,7 +60,7 @@ ExecStartPost=-<%= action %>
 <% end -%>
 SuccessExitStatus=143
 
-StandardOutput=syslog
+StandardOutput=journal
 
 [Install]
 WantedBy=multi-user.target
